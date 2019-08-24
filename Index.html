@@ -24,12 +24,19 @@
 
 	<body>
 		<div class="container-fluid">
+			<h1 class="display-1 text-center">This Is a Level 1 Heading</h1>
 			<div class="jumbotron">
-				<h1 class="display-1">This is a Heading</h1>
-				<p class="display-2">The words</p>
-				<p class="display-3">In this jumbotron</p>
-				<p class="display-4">Are exhibiting</p>
-				<p class="display-5">Display levels 1-5</p>
+				<div class="row justify-content-center">
+					<div class="col">
+						<p class="text-center"><span class="display-2">The box surrounding</span>
+						<br>
+						<span class="display-3">this paragraph is called a</span>
+						<br>
+						<span class="display-4">jumbotron, and each of the lines</span>
+						<br>
+						<span class="display-5">in it exhibits an additional display level beyond the heading's.</span></p>
+					</div>
+				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
@@ -43,74 +50,43 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-3">
-					<p class="text-primary">This is text using "primary" formatting</p>
+				<div class="col">
+					<p>	
+						<div><kbd>This is text using "kbd" formatting</kbd></div>
+						<div class="font-weight-bold">This is text using "font-weight-bold" formatting</div>
+						<div class="text-uppercase">This is text using "uppercase" formatting</div>
+						<div class="text-capitalize">This is text using "capitalized" formatting</div>
+						<div class="text-dark">This is text using "dark" formatting</div>
+						<div class="lead">This is text using "lead" formatting</div>
+						<div class="text-secondary">This is text using "secondary" formatting</div>
+						<div class="text-light bg-secondary">This is text using "light" formatting</div>
+					</p>
 				</div>
-				<div class="col-3">
-					<p class="text-secondary">This is text using "secondary" formatting</p>
-				</div>
-				<div class="col-3">
-					<p class="text-dark">This is text using "dark" formatting</p>
-				</div>
-				<div class="col-3">
-					<p class="text-light bg-secondary">This is text using "light" formatting</p>
+				<div class="col"></div>
+				<div class="col">
+					<p>
+						<div><mark>This is text using "mark" formatting</mark></div>
+						<div class="text-primary">This is text using "primary" formatting</div>
+						<div class="text-info">This is text using "info" formatting</div>
+						<div class="text-success">This is text using "success" formatting</div>
+						<div class="text-warning">This is text using "warning" formatting</div>
+						<div class="text-danger">This is text using "danger" formatting</div>
+						<div><code>This is text using "code" formatting</code></div>
+						<div><abbr title="Here is the extra information">Mousing over this text reveals more info</abbr></div>
+					</p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col">
-					<p class="text-warning">This is text using "warning" formatting</p>
-				</div>
-				<div class="col">
-					<p class="text-danger">This is text using "danger" formatting</p>
-				</div>
-				<div class="col">
-					<p class="text-success">This is text using "success" formatting</p>
-				</div>
-				<div class="col">
-					<p class="text-info">This is text using "info" formatting</p>
-				</div>
+			<div class="row justify-content-center">
+				<blockquote class="blockquote">
+					<p>"Blockquote" formatting like this is used to quote content from another source in the webpage
+					<footer class="blockquote-footer text-center">This a footer for the blockquote</footer></p>
+				</blockquote>
 			</div>
-			<div class="row">
-				<div class="col">
-					<p><abbr title="Here is the extra information">Mousing over this text reveals more info</abbr></p>
-				</div>
-				<div class="col">
-					<p><mark>This is text using the "mark" tag</mark></p>
-				</div>
-				<div class="col">
-					<p><code>This is text using the "code" tag</code></p>
-				</div>
-				<div class="col">
-					<p><kbd>This is text using the "kbd" tag</kbd></p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col">
-					<p class="font-weight-bold">This is text using the "font-weight-bold" class</p>
-				</div>
-				<div class="col">
-					<p class="lead">This is text using the "lead" class</p>
-				</div>
-				<div class="col">
-					<p class="text-uppercase">This text using the "uppercase" class</p>
-				</div>
-				<div class="col">
-					<p class="text-capitalize">This text is using the "capitalized" class</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-12">
-					<blockquote class="blockquote">
-						<p>"Blockquote" formatting like this is used to quote content from another source in the webpage</p>
-						<footer class="blockquote-footer">This a footer for the blockquote</footer>
-					</blockquote>
-				</div>
-				<div class="col">
-					<dl>
-						<dt>This is a term I want to describe</dt>
-						<dd>- This is the definition for it</dd>
-					</dl>
-				</div>
+			<div class="row justify-content-center">
+				<dl>
+					<dt>This is a term I want to describe</dt>
+					<dd class="text-center">- This is the definition for it</dd>
+				</dl>
 			</div>
 			<div class="row">
 				<div class="col">
@@ -202,6 +178,15 @@
 					<span class="badge badge-warning">This is a warning badge</span>
 					<span class="badge badge-light">This is a light badge</span>
 					<span class="badge badge-dark">This is a dark badge</span>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<br>
+					<div class="alert alert-success alert-dismissible fade show">
+						<button class="close" data-dismiss="alert">&times;</button>
+						This is an alert!
+					</div>
 				</div>
 			</div>
 	</body>
