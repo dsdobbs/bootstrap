@@ -192,6 +192,46 @@
 					<span class="badge badge-dark">This is a dark badge</span>
 				</div>
 			</div>
+			<br>
+			<div class="row">
+				<div class="col">
+					<a href="#collapse1" data-toggle="collapse">Click here to toggle the collapsible data below</a>
+					<br>
+					<div id="collapse1" class="collapse show">This is the collapsible data</div>
+					<br>
+					<button data-toggle="collapse" data-target="#collapse2">Click this button to toggle a second set of collapsible data</button>
+					<br>
+					<div id="collapse2" class="collapse">This is the second set of collapsible data</div>
+					<br>
+					<h1>Sample Collapsible Card</h1>
+					<div id="accordion">
+						<div class="card">
+							<div class="card-header">
+								<a class="card-link" href="#cardCollapse1" data-toggle="collapse">Click here to toggle the collapse of this card's body</a>
+							</div>
+							<div id="cardCollapse1" class="collapse" data-parent="#accordion">
+								<div class="card-body">The 1st collapsible card body</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a class="card-link" href="#cardCollapse2" data-toggle="collapse">Click here to toggle the collapse of this card's body</a>
+							</div>
+							<div id="cardCollapse2" class="collapse" data-parent="#accordion">
+								<div class="card-body">The 2nd collapsible card body</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a class="card-link" href="#cardCollapse3" data-toggle="collapse">Click here to toggle the collapse of this card's body</a>
+							</div>
+							<div id="cardCollapse3" class="collapse" data-parent="#accordion">
+								<div class="card-body">The 3rd collapsible card body</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="row">
 				<div class="col">
 					<br>
@@ -201,79 +241,101 @@
 					</div>
 				</div>
 			</div>
-			<h1>Sample Progress Bars</h1>
-			<div class="progress" style="height:25px">
-				<div class="progress-bar" style="width:25%"></div>
-			</div>
-			<div class="progress" style="height:25px">
-				<div class="progress-bar bg-success progress-bar-striped" style="width:50%"></div>
-			</div>
-			<div class="progress" style="height:25px">
-				<div class="progress-bar bg-warning progress-bar-animated progress-bar-striped" style="width:75%"></div>
-			</div>
 			<br>
-			<h1>Sample Table</h1>
-			<table class="table table-sm table-bordered table-striped">
-				<thead>
-					<tr>
-						<th>Student Number</th>
-						<th>Student Name</th>
-						<th>Student Class</th>
-						<th>Student Grade</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>1</td>
-						<td>John</td>
-						<td>Chemistry</td>
-						<td>63</td>
-					</tr>
-					<tr>
-						<td>2</td>
-						<td>Jane</td>
-						<td>Biology</td>
-						<td>76</td>
-					</tr>
-					<tr>
-						<td>3</td>
-						<td>James</td>
-						<td>Computer Science</td>
-						<td>82</td>
-					</tr>
-					<tr>
-						<td>4</td>
-						<td>Jenna</td>
-						<td>Accounting</td>
-						<td>79</td>
-					</tr>
-				</tbody>
-			</table>
-			<br>
-			<h1>Sample List Group</h1>
-			<ul class="list-group">
-				<li class="list-group-item">List Group Item</li>
-				<li class="list-group-item active">Active List Group Item</li>
-				<li class="list-group-item disabled">Disabled List Group Item</li>
-				<a href="#" class="list-group-item list-group-item-action">Interactive List Group Item</a>
-			</ul>
-			<br>
-			<h1>Sample Card</h1>
-			<div class="card">
-				<div class="card-header">Card header</div>
-				<h3 class="card-title">Card title</h3>
-				<div class="card-body">Card body</div>
-				<div class="card-footer">Card footer</div>
+			<div class="row">
+						<div class="col">
+					<h1>Sample Progress Bars</h1>
+					<div class="progress" style="height:25px">
+						<div class="progress-bar" style="width:25%"></div>
+					</div>
+					<div class="progress" style="height:25px">
+						<div class="progress-bar bg-success progress-bar-striped" style="width:50%"></div>
+					</div>
+					<div class="progress" style="height:25px">
+						<div class="progress-bar bg-warning progress-bar-animated progress-bar-striped" style="width:75%"></div>
+					</div>
+				</div>
 			</div>
 			<br>
-			<h1>Sample Pagination</h1>
-			<ul class="pagination justify-content-center">
-				<li class="page-item"><a href="#" class="page-link">Previous</a></li>
-				<li class="page-item"><a href="#" class="page-link">2</a></li>
-				<li class="page-item"><a href="#" class="page-link">3</a></li>
-				<li class="page-item"><a href="#" class="page-link">4</a></li>
-				<li class="page-item"><a href="#" class="page-link">Next</a></li>
-			</ul>
+			<div class="row">
+				<div class="col">
+					<h1>Sample Table</h1>
+					<table class="table table-sm table-bordered table-striped">
+						<thead>
+							<tr>
+								<th>Student Number</th>
+								<th>Student Name</th>
+								<th>Student Class</th>
+								<th>Student Grade</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>John</td>
+								<td>Chemistry</td>
+								<td>63</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>Jane</td>
+								<td>Biology</td>
+								<td>76</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>James</td>
+								<td>Computer Science</td>
+								<td>82</td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>Jenna</td>
+								<td>Accounting</td>
+								<td>79</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col">
+					<h1>Sample List Group</h1>
+					<ul class="list-group">
+						<li class="list-group-item">List Group Item</li>
+						<li class="list-group-item active">Active List Group Item</li>
+						<li class="list-group-item disabled">Disabled List Group Item</li>
+						<a href="#" class="list-group-item list-group-item-action">Interactive List Group Item</a>
+					</ul>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col">
+					<h1>Sample Card</h1>
+					<div class="card">
+						<div class="card-header">Card header</div>
+						<h3 class="card-title">Card title</h3>
+						<div class="card-body">Card body</div>
+						<div class="card-footer">Card footer</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col">
+					<h1>Sample Pagination</h1>
+					<br>
+					<ul class="pagination justify-content-center">
+						<li class="page-item"><a href="#" class="page-link">Previous</a></li>
+						<li class="page-item"><a href="#" class="page-link">2</a></li>
+						<li class="page-item"><a href="#" class="page-link">3</a></li>
+						<li class="page-item"><a href="#" class="page-link">4</a></li>
+						<li class="page-item"><a href="#" class="page-link">Next</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
