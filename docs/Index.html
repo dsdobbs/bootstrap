@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap Project</title>
+		<link 	rel="stylesheet" 
+				href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+				integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+				crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+				integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+				crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+				integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" 
+				crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+				integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
+				crossorigin="anonymous"></script>
+		<meta 	name="description" 
+				content="This is the home page of a fullstack web development project">
+		<meta 	name="keyword" 
+				content="homepage, full stack, web development">
+		<meta 	name="author" 
+				content="Daniel Dobbs">
+	</head>
+
+	<body class="text-center">
+		<div class="container-fluid">
+			<h1 class="display-1 text-primary bg-light mb-4"><u>Bootstrap Overview</u></h1>
+			<h1 class="text-primary">Breadcrumb and Nav Tab Samples</h1>
+			<div class="row border border-dark bg-light pt-3 mb-4 mx-0">
+				<div class="col">
+					<ul class="breadcrumb">
+						<li class="breadcrumb-item"><a href="#">Breadcrumb item 1</a></li>
+						<li class="breadcrumb-item"><a href="#">Breadcrumb item 2</a></li>
+						<li class="breadcrumb-item"><a href="#">Breadcrumb item 3</a></li>
+						<li class="breadcrumb-item"><a href="#">Breadcrumb item 4</a></li>
+					</ul>
+					<ul class="nav nav-tabs">
+						<li class="nav-item">
+							<a href="#navTab1" data-toggle="tab" class="nav-link active">Tab 1</a>
+						</li>
+						<li class="nav-item">
+							<a href="#navTab2" class="nav-link" data-toggle="tab">Tab 2</a>
+						</li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane container active" id="navTab1">This is the data in Tab 1</div>
+						<div class="tab-pane container" id="navTab2">This is the data in Tab 2</div>
+					</div>
+				</div>
+			</div>
+			<h1 class="text-primary">Jumbotron and Display Level Samples</h1>
+			
+				<div class="row border border-dark bg-light pt-4 mb-4 mx-0">
+					<div class="col text-secondary">
+						<div class="jumbotron">
+						<div class="display-1">Display Level 1 Text</div>
+						<div class="display-2">Display Level 2 Text</div>
+						<div class="display-3">Display Level 3 Text</div>
+						<div class="display-4">Display Level 4 Text</div>
+						<div class="display-5">Display Level 5 Text</div>
+					</div>
+				</div>
+			</div>
+			<h1 class="text-primary">Sub-Jumbotron and Text Samples</h1>
+			<div class="row border border-dark bg-light pt-4 mb-4 mx-0">
+				<div class="col text-secondary">
+					<div class="jumbotron">
+						<div><kbd>This is text with "kbd" formatting</kbd></div>
+						<div class="text-light bg-secondary">This is text with "light" formatting</div>
+						<div class="font-weight-bold">This is text with "font-weight-bold" formatting</div>
+						<div class="text-uppercase">This is text with "uppercase" formatting</div>
+						<div class="text-capitalize">This is text with "capitalized" formatting</div>
+						<div class="text-dark">This is text with "dark" formatting</div>
+						<div class="lead">This is text with "lead" formatting</div>
+						<div class="text-secondary">This is text with "secondary" formatting</div>
+					</div>
+				</div>
+				<div class="col text-secondary">
+					<div class="jumbotron">
+						<div><mark>This is text with "mark" formatting</mark></div>
+						<div class="text-primary">This is text with "primary" formatting</div>
+						<div class="text-info">This is text with "info" formatting</div>
+						<div class="text-success">This is text with "success" formatting</div>
+						<div class="text-warning">This is text with "warning" formatting</div>
+						<div class="text-danger">This is text with "danger" formatting</div>
+						<div><code>This is text with "code" formatting</code></div>
+						<div><abbr title="Here is the extra information">Mousing over this text reveals more info</abbr></div>	
+					</div>
+				</div>
+			</div>
+			<h1 class="text-primary">Button and Badge Samples</h1>
+			<div class="row border border-dark bg-light py-4 mb-4 mx-0">
+				<div class="col">
+					<button class="btn btn-primary">This is a button with "primary" formatting</button>
+					<button class="btn btn-secondary">This is a button with "secondary" formatting</button>
+					<button class="btn btn-info">This is a button with "info" formatting</button>
+					<button class="btn btn-success">This is a button with "success" formatting</button>
+					<button class="btn btn-danger">This is a button with "danger" formatting</button>
+					<button class="btn btn-warning">This is a button with "warning" formatting</button>
+					<button class="btn btn-dark">This is a button with "dark" formatting</button>
+					<button class="btn btn-light">This is a button with "light" formatting</button>
+					<div class="dropdown">
+						<br>
+						<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" data-flip="false">Click this dropdown button</button>
+						<div class="dropdown-menu">
+							<div class="dropdown-header">Dropdown Header</div>
+							<a href="#" class="dropdown-item">Option 1</a>
+							<div class="dropdown-divider"></div>
+							<a href="#" class="dropdown-item">Option 2</a>
+							<div class="dropdown-divider"></div>
+							<a href="#" class="dropdown-item">Option 3</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<button class="btn btn-sm">This is a button with "sm" formatting</button>
+					<br>
+					<button class="btn btn-lg">This is a button with "lg" formatting</button>
+					<br>
+					<input type="submit" value="This is a button with 'input' formatting" class="btn">
+					<br>
+					<a href="#" class="btn btn-secondary">This is a button with "link" formatting</a>
+					<br>
+					<button class="btn btn-link">This is a button with "btn-link" formatting</button>
+					<div class="btn-group-vertical">
+						<button class="btn-primary">This is the top button in a vertical button group</button>
+						<button class="btn-success">This is the middle button in a vertical button group</button>
+						<button class="btn-warning">This is the bottom button in a vertical button group</button>
+					</div>
+					<div class="btn-group btn-group-lg">
+						<button class="btn btn-primary">These are</button>
+						<button class="btn btn-success">Grouped buttons</button>
+						<button class="btn btn-warning">With "lg" formatting</button>
+					</div>
+					<div class="btn-group">
+						<button class="btn btn-primary">These are</button>
+						<button class="btn btn-success">Grouped buttons</button>
+						<button class="btn btn-warning">without size formatting</button>
+					</div>
+					<div class="btn-group btn-group-sm">
+						<button class="btn btn-primary">These are</button>
+						<button class="btn btn-success">grouped buttons</button>
+						<button class="btn btn-warning">with "sm" formatting</button>
+					</div>
+				</div>
+				<div class="col">
+					<button class="btn btn-outline-primary"> This is a "primary" outline button</button>
+					<button class="btn btn-outline-secondary"> This is a "secondary" outline button</button>
+					<button class="btn btn-outline-info"> This is an "info" outline button</button>
+					<button class="btn btn-outline-success"> This is a "success" outline button</button>
+					<button class="btn btn-outline-danger"> This is a "danger" outline button</button>
+					<button class="btn btn-outline-warning"> This is a "warning" outlinebutton</button>
+					<button class="btn btn-outline-dark"> This is a "dark" outline button</button>
+					<button class="btn btn-outline-light"><font color="black">This is a "light" outline button</font></button>
+					<div class="dropup">
+						<br>
+						<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" data-flip="false">Click this dropup button</button>
+						<div class="dropdown-menu">
+							<div class="dropdown-header">Dropdown Header</div>
+							<a href="#" class="dropdown-item">Option 1</a>
+							<div class="dropdown-divider"></div>
+							<a href="#" class="dropdown-item">Option 2</a>
+							<div class="dropdown-divider"></div>
+							<a href="#" class="dropdown-item">Option 3</a>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<br>
+					<span class="badge badge-primary">This is a primary badge</span>
+					<span class="badge badge-secondary">This is a secondary badge</span>
+					<span class="badge badge-danger">This is a danger badge</span>
+					<span class="badge badge-info">This is an info badge</span>
+					<span class="badge badge-warning">This is a warning badge</span>
+					<span class="badge badge-light">This is a light badge</span>
+					<span class="badge badge-dark">This is a dark badge</span>
+				</div>
+			</div>
+			<h1 class="text-primary">Blockquote and Definition Samples</h1>
+			<div class="row border border-dark bg-light pt-4 mb-4 mx-0">
+				<div class="col">
+					<blockquote class="blockquote">
+						<p>"Blockquote" formatting like this is used to display content from another source in the webpage
+						<footer class="blockquote-footer"> "Blockquote-footer" formatting like this is used to display the source for the content above</footer></p>
+					</blockquote>
+					<div class="row justify-content-center">
+						<dl>
+							<dt>"Dt" formatting like this is used to display a term</dt>
+							<dd>- "Dd" formatting like this is used to display a definition for the term above</dd>
+							<dt>This is another term in the definition list</dt>
+							<dd>- This is another definition for the previous term</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<h1 class="text-primary">Collapsible Data Samples</h1>
+			<div class="row border border-dark bg-light pt-4 mb-4 mx-0">
+				<div class="col">
+					<a href="#collapse1" data-toggle="collapse">Click here to toggle the collapsible data below</a>
+					<br>
+					<div id="collapse1" class="collapse show">This is the collapsible data</div>
+					<br>
+					<button data-toggle="collapse" data-target="#collapse2">Click this button to toggle a second set of collapsible data</button>
+					<br>
+					<div id="collapse2" class="collapse">This is the second set of collapsible data</div>
+					<br>
+					<div id="accordion">
+						<div class="card">
+							<div class="card-header">
+								<a class="card-link" href="#cardCollapse1" data-toggle="collapse">Click here to toggle the collapse of this card's body</a>
+							</div>
+							<div id="cardCollapse1" class="collapse" data-parent="#accordion">
+								<div class="card-body">The 1st collapsible card body</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a class="card-link" href="#cardCollapse2" data-toggle="collapse">Click here to toggle the collapse of this card's body</a>
+							</div>
+							<div id="cardCollapse2" class="collapse" data-parent="#accordion">
+								<div class="card-body">The 2nd collapsible card body</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header">
+								<a class="card-link" href="#cardCollapse3" data-toggle="collapse">Click here to toggle the collapse of this card's body</a>
+							</div>
+							<div id="cardCollapse3" class="collapse" data-parent="#accordion">
+								<div class="card-body">The 3rd collapsible card body</div>
+							</div>
+						</div>
+					</div>
+					<br>
+					<div class="alert alert-success alert-dismissible fade show">
+						<button class="close" data-dismiss="alert">&times;</button>
+						Click the "x" at the right of this alert to collapse it!
+					</div>
+				</div>
+			</div>
+			<h1 class="text-primary">Progress Bar and Table Samples</h1>
+			<div class="row border border-dark bg-light pt-4 mb-4 mx-0">
+				<div class="col">
+					<div class="progress" style="height:25px">
+						<div class="progress-bar" style="width:25%"></div>
+					</div>
+					<div class="progress" style="height:25px">
+						<div class="progress-bar bg-success progress-bar-striped" style="width:50%"></div>
+					</div>
+					<div class="progress" style="height:25px">
+						<div class="progress-bar bg-warning progress-bar-animated progress-bar-striped" style="width:75%"></div>
+					</div>
+					<br>
+					<table class="table table-sm table-bordered table-striped">
+						<thead>
+							<tr>
+								<th>Student Number</th>
+								<th>Student Name</th>
+								<th>Student Class</th>
+								<th>Student Grade</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>John</td>
+								<td>Chemistry</td>
+								<td>63</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>Jane</td>
+								<td>Biology</td>
+								<td>76</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>James</td>
+								<td>Computer Science</td>
+								<td>82</td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>Jenna</td>
+								<td>Accounting</td>
+								<td>79</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<h1 class="text-primary">List Group and Card Samples</h1>
+			<div class="row border border-dark bg-light pt-4 mb-4 mx-0">
+				<div class="col">
+					<br>
+					<ul class="list-group">
+						<li class="list-group-item">List Group Item</li>
+						<li class="list-group-item active">Active List Group Item</li>
+						<li class="list-group-item disabled">Disabled List Group Item</li>
+						<a href="#" class="list-group-item list-group-item-action">Interactive List Group Item</a>
+					</ul>
+					<br>
+					<div class="card">
+						<h3 class="card-header">Card header</h3>
+						<h4 class="card-title">Card title</h4>
+						<div class="card-body">Card body</div>
+						<div class="card-footer">Card footer</div>
+					</div>
+				</div>
+			</div>
+			<h1 class="text-primary">Pagination Samples</h1>
+			<div class="row border border-dark bg-light mb-4 mx-0">
+				<div class="col">
+					<br>
+					<ul class="pagination justify-content-center">
+						<li class="page-item"><a href="#" class="page-link">Previous</a></li>
+						<li class="page-item"><a href="#" class="page-link">2</a></li>
+						<li class="page-item"><a href="#" class="page-link">3</a></li>
+						<li class="page-item"><a href="#" class="page-link">4</a></li>
+						<li class="page-item"><a href="#" class="page-link">Next</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
